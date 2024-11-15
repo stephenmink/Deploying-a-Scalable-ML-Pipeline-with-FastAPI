@@ -38,7 +38,7 @@ app = None # your code here
 # TODO: create a GET on the root giving a welcome message
 @app.get("/")
 async def get_root():
-    """ Say hello!"""
+    """ Say hello!  """
     # your code here
     pass
 

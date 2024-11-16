@@ -33,7 +33,7 @@ model_dir = os.path.join(project_path, "model")  # Path to the "model" directory
 encoder_path = os.path.join(model_dir, "encoder.pkl")
 encoder = load_model(encoder_path)
 
-model_path = os.path.join(model_dir, "mdel.pkl")
+model_path = os.path.join(model_dir, "model.pkl")
 model = load_model(model_path)
 
 
